@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.result-tabs {
+    margin-top: 20px;
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ddd;
+    margin-right: 5px;
+}
+
+.result-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.result-content.active {
+    display: block;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
