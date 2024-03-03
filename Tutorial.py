@@ -6,8 +6,8 @@ from datetime import datetime
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 import bd
 
-api_key = '6565241401:AAE87tW2TuPvSC3nK20pc9ztpn1x2fC5pw0'  # Substitua pelo seu próprio token
-chat_id = '-1001715485230'  # Substitua pelo ID do seu canal
+api_key = '6899488821:AAGq80dHc3H8K6q3_g_ncvA4ueIuMuOwadA'  # Substitua pelo seu próprio token
+chat_id = '-6899488821'  # Substitua pelo ID do seu canal
 
 bot = telebot.TeleBot(token=api_key)
 
